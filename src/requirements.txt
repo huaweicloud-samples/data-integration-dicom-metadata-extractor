@@ -1,0 +1,20 @@
+# DICOM metadata processing dependencies
+# Install these before packaging the function or building the container image
+
+# OBS (Object Storage Service) SDK for Python
+esdk-obs-python==3.24.4
+
+# DICOM medical image file parsing library
+pydicom==2.4.3
+
+# Parquet file writing for columnar data lake output
+pyarrow==14.0.1
+
+# Structured logging
+structlog==23.2.0
+
+# HTTP client for CCE API calls (job submission)
+requests==2.31.0
+
+# DataFrame operations for metadata flattening
+pandas==2.1.4

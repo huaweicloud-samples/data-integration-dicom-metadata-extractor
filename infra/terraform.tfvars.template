@@ -1,0 +1,17 @@
+# terraform.tfvars 示例（复制为 terraform.tfvars 后填写真实值）
+# 敏感变量（AK/SK、口令）通过 TF_VAR_* 环境变量传递，不要写入本文件
+
+region  = "cn-north-4"
+project_id = "<your-project-id>"
+
+access_key = "<your-access-key>"
+secret_key = "<your-secret-key>"
+
+obs_input_bucket_name  = "<your-input-bucket>"
+obs_output_bucket_name = "<your-output-bucket>"
+
+cce_node_count  = 1
+cce_node_flavor = "s6.large.2"
+
+smn_email_endpoint = ""
+ssh_key_pair = "<your-key-pair-name>"
